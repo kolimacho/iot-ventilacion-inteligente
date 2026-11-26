@@ -1,0 +1,9 @@
+build/
+*.bin
+*.hex
+__pycache__/
+.venv/
+.env
+secrets.h
+arduino_secrets.h
+.DS_Store

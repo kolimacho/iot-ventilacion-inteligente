@@ -1,24 +1,24 @@
-# Ventilación inteligente con IoT y Edge AI
+# Smart Ventilation with IoT and Edge AI
 
-Proyecto final del módulo COM6017M The Internet of Things (York St John University, 2026-27).
+Final project for the module COM6017M The Internet of Things (York St John University, 2026-27).
 
-**Idea:** un nodo con sensor de temperatura (y humedad) que activa automáticamente un sistema de ventilación cuando la temperatura cruza un umbral. Los datos viajan por M2M (LoRa o Bluetooth) a un gateway con WiFi, se guardan y analizan en la nube (ThingSpeak), y un modelo de Edge AI en el propio dispositivo anticipa cuándo activar la ventilación.
+**Idea:** a sensor node measures temperature (and humidity) and automatically switches on a ventilation system when the temperature crosses a threshold. Data travels over M2M (LoRa or Bluetooth) to a WiFi gateway, is stored and analysed in the cloud (ThingSpeak), and an on-device Edge AI model predicts when ventilation will be needed so it can act ahead of time.
 
-**Entrega:** martes 19 de enero de 2027, 12:00 hora de Reino Unido.
+**Deadline:** Tuesday 19 January 2027, 12:00 noon (UK time).
 
-## Estructura
-| Carpeta | Contenido |
+## Repository structure
+| Folder | Contents |
 |---|---|
-| `docs/` | Contexto del curso y plan semanal |
-| `ideas/` | Ideas, decisiones y dudas para el profesor |
-| `hardware/` | Lista de componentes, esquemas y simulación del circuito |
-| `firmware/sensor-node/` | Código del nodo sensor (sensor + actuador + emisor M2M) |
-| `firmware/gateway/` | Código del gateway (receptor M2M + WiFi + nube) |
-| `edge-ai/` | Datos de entrenamiento, modelo y despliegue en el dispositivo |
-| `data/` | Exportaciones de datos y análisis |
-| `report/` | Notas, figuras y referencias para el informe |
+| `docs/` | Module requirements and weekly plan |
+| `ideas/` | Ideas, decisions and questions for the lecturer |
+| `hardware/` | Component list, schematics and circuit simulation |
+| `firmware/sensor-node/` | Sensor node code (sensor + actuator + M2M transmitter) |
+| `firmware/gateway/` | Gateway code (M2M receiver + WiFi + cloud) |
+| `edge-ai/` | Training data, model and on-device deployment |
+| `data/` | Data exports and analysis |
+| `report/` | Notes, figures and references for the report |
 
-## Enlaces
+## Links
 - Plan: [docs/PLAN.md](docs/PLAN.md)
-- Requisitos del curso: [docs/contexto-curso.md](docs/contexto-curso.md)
+- Module requirements: [docs/module-brief-summary.md](docs/module-brief-summary.md)
 - Ideas: [ideas/IDEAS.md](ideas/IDEAS.md)
