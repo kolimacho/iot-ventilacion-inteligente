@@ -20,6 +20,7 @@ Not permitted: generating full paragraphs or answers, paraphrasing sources with 
 | 26/11/2026 | Claude (Anthropic) | Summarising the module page and Assignment Brief so I could organise the requirements | Understanding the brief / planning |
 | 26/11/2026 | Claude (Anthropic) | Brainstorming how to extend my temperature-controlled ventilation idea (M2M, cloud, Edge AI) | Generating ideas or brainstorming |
 | 26/11/2026 | Claude (Anthropic) | Drafting a weekly project schedule and the repository folder structure | Generating ideas / planning |
+| 26/11/2026 | Claude (Anthropic) | Suggesting a list of components and helping draft an email to the Module Leader (not assessed content) | Generating ideas / planning |
 
 ## Open question for the Module Leader
 - AI help with **code** (Arduino/Python) is not explicitly listed as permitted or not permitted. Ask Dr Usman before using AI for code, and log it here if allowed.
